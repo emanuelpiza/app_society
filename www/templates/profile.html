@@ -1,0 +1,56 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="{{player.name}}">
+  <ion-content class="padding item-avatar" style="text-align: center;">
+        
+    <img class="media-object material_media_object" ng-src="{{player.face}}" 
+      style="display: block; margin-left: auto; margin-right: auto;">
+    
+     <img class="media-object material_media_object" ng-src="img/grafico.png" 
+      style="display: block; margin-left: auto; margin-right: auto; width:90%; height:90%; max-width:400px;">
+    
+        <!--device information section-->
+        <!--lise section-->
+        <md-list>
+               
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Posição : 
+                </div>
+                <div class="col-50">
+                    <a href="#/tab/dash"> {{player.lastText}}</a>
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Número de Gols :
+                </div>
+                <div class="col-50">
+                   65
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            
+             <md-list-item class="row">
+                <div class="col-50 title">
+                    Número de assistências :
+                </div>
+                <div class="col-50">
+                   53
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            
+        </md-list>
+    <h3>Lances:</h3>
+    <iframe width="100%" height="100%"
+      src="https://www.youtube.com/embed/sWhXgm4AETc" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </ion-content>
+</ion-view>
