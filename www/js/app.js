@@ -49,6 +49,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
+  
+    .state('tab.team', {
+    url: '/dash/:teamId',
+    views: {
+      'tab-dash': {
+        templateUrl: 'templates/team.html',
+        controller: 'TeamCtrl'
+      }
+    }
+  })
 
   .state('tab.chats', {
       url: '/chats',
