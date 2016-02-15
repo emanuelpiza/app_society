@@ -25,7 +25,6 @@ angular.module('starter.controllers', [])
   $scope.player = Players.get($stateParams.playerId);
   $scope.labels = ["Vitórias", "Gols", "Assistência", "Defesa", "FairPlay", "Presença"];
   $scope.series = ['Dados de 12/02/2016'];
-  $scope.data = [[65, 59, 80, 81, 56, 55]];
 })
 
 .controller('AccountCtrl', function($scope) {
