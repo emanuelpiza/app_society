@@ -6,26 +6,24 @@
 -->
 <ion-view view-title="{{player.name}}">
   <ion-content class="padding item-avatar" style="text-align: center;">
-        
+      
     <img class="media-object material_media_object" ng-src="img/perfil.jpg" 
       style="display: block; margin-left: auto; margin-right: auto;">
     <br><br>
-     <img class="media-object material_media_object" ng-src="img/grafico.png" 
-      style="display: block; margin-left: auto; margin-right: auto; width:90%; height:90%; max-width:400px;">
+
+          <div class="card">
+        <div class="item item-text-wrap">
+            <canvas id="line" class="chart chart-radar" data="data"
+            labels="labels" legend="false" options="{showTooltips: false}"></canvas>
+        </div>
+    </div>
+     
+    <!-- <img class="media-object material_media_object" ng-src="img/grafico.png" 
+      style="display: block; margin-left: auto; margin-right: auto; width:90%; height:90%; max-width:400px;">-->
     
         <!--device information section-->
         <!--lise section-->
         <md-list>
-               
-            <md-list-item class="row">
-                <div class="col-50 title">
-                    Posição : 
-                </div>
-                <div class="col-50">
-                     Indefinida
-                </div>
-            </md-list-item>
-            <md-divider></md-divider>
             
             <md-list-item class="row">
                 <div class="col-50 title">
@@ -52,5 +50,5 @@
     <iframe width="100%" height="100%"
       src="https://www.youtube.com/embed/sWhXgm4AETc" frameborder="0" allowfullscreen></iframe>
     </div>
-  </ion-content>
+</ion-content>
 </ion-view>

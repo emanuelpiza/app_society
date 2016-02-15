@@ -20,3 +20,8 @@ O módulo starter vem acompanhado de alguns requerimentos. No caso exemplo, cont
 Sua função é, basicamente, concentrar os possíveis estados(páginas) que o app pode ter. Controllers são objetos que contém
 informações carregadas durante a abertura do app, para um determinado escopo. Em services, ficam funções, por exemplo acesso
 a dados que são alimentados em cada estado. 
+
+
+Para os gráficos:
+https://blog.nraboy.com/2015/08/using-charts-in-your-ionic-framework-mobile-app/
+
