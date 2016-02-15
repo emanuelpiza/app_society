@@ -1,15 +1,16 @@
-<ion-view view-title="">
+<ion-view view-title="{{team.nome}}">
    
   <ion-content class="padding" style="text-align: center;">
         <div style="    display: table;
             position: relative; width: 100%; padding: 0;
-            background: url(img/turma.jpeg) no-repeat center center scroll;
+            background: url({{team.foto}}) no-repeat center center scroll;
             -webkit-background-size: cover;
             -moz-background-size: cover; background-size: cover;
             -o-background-size: cover;">
          <div style="text-align:center;">
-				<br><br><br>            
-            <h2 style="color:white; font-size:44px;">{{team.nome}}</h2>
+			<a href="https://www.facebook.com/295544220637495/photos/a.448080082050574.1073741828.295544220637495/448079712050611/"></a>
+			<br><br><br><br><br><br><br></a>
+            <!--<h2 style="color:white; font-size:44px;">{{team.nome}}</h2>-->
             <br>
         </div>
     </div>
@@ -51,7 +52,7 @@
                     Jogadores :
                 </div>
                 <div class="col-50">
-                   24
+                   {{team.jogadores}}
                 </div>
             </md-list-item>
             <md-divider></md-divider>
@@ -61,15 +62,11 @@
                     Partidas Gravadas :
                 </div>
                 <div class="col-50">
-                   25
+                   {{team.partidas}}
                 </div>
             </md-list-item>
             <md-divider></md-divider>
         </md-list>
-    <h3>Vídeos:</h3>
-    <iframe width="100%" height="100%" 
-      src="https://www.youtube.com/embed/videoseries?list=PLXOWQP5Jx-MiuvP_Ms3HBJEqWLlhNdKsp"
-      frameborder="0" allowfullscreen></iframe>
-    </div>
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/_wrGhc2CAYQ?list=PLXOWQP5Jx-Mh1dLQ5ksrPUFdP04YsNLTL" frameborder="0" allowfullscreen></iframe>
   </ion-content>
 </ion-view>

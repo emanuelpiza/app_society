@@ -91,6 +91,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  //Tirar o /1 quando houver mais de um time.
+  $urlRouterProvider.otherwise('/tab/dash/1');
 
 });

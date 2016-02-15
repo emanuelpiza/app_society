@@ -25,3 +25,6 @@ a dados que são alimentados em cada estado.
 Para os gráficos:
 https://blog.nraboy.com/2015/08/using-charts-in-your-ionic-framework-mobile-app/
 
+
+http://ionicframework.com/docs/api/directive/ionNavView/
+
