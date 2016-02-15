@@ -4,18 +4,29 @@ angular.module('starter.services', [])
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
- var players = [{
-    id: 0,
-    name: 'Marquinhos',
-    lastText: 'Atacante',
-    face: 'img/marquinhos.png'
-  },{
-    id: 1,
-    name: 'Marquinhos',
-    lastText: 'Zagueiro',
-    face: 'img/marquinhos.png'
+ var players = [
+      { id:0, name: 'Cleber', gols: '1', assistencias: '2', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:1, name: 'Ademar', gols: '1', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:2, name: 'Xuxa', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:3, name: 'Igor', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'
+  } , { id:4, name: 'Jackson', gols: '1', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'
+  } , { id:5, name: 'Escada', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:6, name: 'Negão', gols: '2', assistencias: '1', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:7, name: 'João', gols: '1', assistencias: '3', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:8, name: 'Gonçalo', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:9, name: 'Barba', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:10, name: 'Japonês', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:11, name: 'Ricardo', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:12, name: 'Mauro', gols: '0', assistencias: '2', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:13, name: 'Gil', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:14, name: 'Roberto', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:15, name: 'Caio', gols: '3', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:16, name: 'Val', gols: '3', assistencias: '1', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:17, name: 'Xupin', gols: '0', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:18, name: 'Nei', gols: '1', assistencias: '1', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'									
+  } , { id:19, name: 'Samuel', gols: '1', assistencias: '0', vitoria: '1', defesa: '1', fairplay: '1', presenca: '6', equipe: 'Amigos de Quinta'
   }
-  ];
+];
 
   return {
     all: function() {

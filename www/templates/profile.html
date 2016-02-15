@@ -7,9 +7,9 @@
 <ion-view view-title="{{player.name}}">
   <ion-content class="padding item-avatar" style="text-align: center;">
         
-    <img class="media-object material_media_object" ng-src="{{player.face}}" 
+    <img class="media-object material_media_object" ng-src="img/perfil.jpg" 
       style="display: block; margin-left: auto; margin-right: auto;">
-    
+    <br><br>
      <img class="media-object material_media_object" ng-src="img/grafico.png" 
       style="display: block; margin-left: auto; margin-right: auto; width:90%; height:90%; max-width:400px;">
     
@@ -22,7 +22,7 @@
                     Posição : 
                 </div>
                 <div class="col-50">
-                    <a href="#/tab/dash"> {{player.lastText}}</a>
+                     Indefinida
                 </div>
             </md-list-item>
             <md-divider></md-divider>
@@ -32,7 +32,7 @@
                     Número de Gols :
                 </div>
                 <div class="col-50">
-                   65
+                   {{player.gols}}
                 </div>
             </md-list-item>
             <md-divider></md-divider>
@@ -42,7 +42,7 @@
                     Número de assistências :
                 </div>
                 <div class="col-50">
-                   53
+                   {{player.assistencias}}
                 </div>
             </md-list-item>
             <md-divider></md-divider>
