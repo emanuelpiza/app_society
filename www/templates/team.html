@@ -1,19 +1,7 @@
 <ion-view view-title="{{team.nome}}">
    
   <ion-content class="padding" style="text-align: center;">
-        <div style="    display: table;
-            position: relative; width: 100%; padding: 0;
-            background: url({{team.foto}}) no-repeat center center scroll;
-            -webkit-background-size: cover;
-            -moz-background-size: cover; background-size: cover;
-            -o-background-size: cover;">
-         <div style="text-align:center;">
-			<a href="https://www.facebook.com/295544220637495/photos/a.448080082050574.1073741828.295544220637495/448079712050611/"></a>
-			<br><br><br><br><br><br><br></a>
-            <!--<h2 style="color:white; font-size:44px;">{{team.nome}}</h2>-->
-            <br>
-        </div>
-    </div>
+    <img src={{team.foto}} style="width:100%; height:100%;"></img>
         <md-list>
             
           <md-list-item class="row">
@@ -31,8 +19,8 @@
                     Campo : 
                 </div>
                 <div class="col-50">
-                   <a href="http://andrecruz.com.br/paradisolocalizacao.html"></a>
-                   Chuteira de Ouro</a>
+                   <a href={{team.site}} target="_blank">
+                   {{team.campo}}</a>
                 </div>
             </md-list-item>
             <md-divider></md-divider>
@@ -67,6 +55,6 @@
             </md-list-item>
             <md-divider></md-divider>
         </md-list>
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/_wrGhc2CAYQ?list=PLXOWQP5Jx-Mh1dLQ5ksrPUFdP04YsNLTL" frameborder="0" allowfullscreen></iframe>
+    <iframe id="myIframe" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
   </ion-content>
 </ion-view>

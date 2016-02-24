@@ -10,6 +10,8 @@ angular.module('starter.controllers', [])
 //.controller('TeamCtrl', function($scope) {})
 .controller('TeamCtrl', function($scope, $stateParams, Teams) {
   $scope.team = Teams.get($stateParams.teamId);
+  var iframe = document.getElementById("myIframe");
+  iframe.src = $scope.team.urlvideos; 
 })
 
 

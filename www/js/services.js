@@ -52,24 +52,37 @@ angular.module('starter.services', [])
   // Some fake testing data
  var teams = [{
     id: 0,
+    nome: 'Amigos de Quinta',
+    foto: 'img/amigos.jpg',
+    fundacao: '2011',
+    campo: 'Paradiso Futebol Society',
+    site: 'http://andrecruz.com.br/paradisolocalizacao.html',
+    horario: 'Quintas, 19h00 às 20h00.',
+    partidas: '5',
+    jogadores: '20',
+    urlvideos: 'https://www.youtube.com/embed/videoseries?list=PLXOWQP5Jx-Mh1dLQ5ksrPUFdP04YsNLTL'
+ },{
+    id: 1,
     nome: 'Peladeiros de Sexta',
     foto: 'img/turma.jpeg',
     fundacao: 'Setembro de 1995',
-    campo: 'http://andrecruz.com.br/paradisolocalizacao.html',
+    campo: 'Paradiso Futebol Society',
+    site: 'http://andrecruz.com.br/paradisolocalizacao.html',
     horario: 'Sextas, 20h30 às 22h00.',
     partidas: '25',
     jogadores: '24',
     urlvideos: 'https://www.youtube.com/embed/videoseries?list=PLXOWQP5Jx-MiuvP_Ms3HBJEqWLlhNdKsp'
-  }, {
-    id: 1,
-    nome: 'Amigos de Quinta',
-    foto: 'img/amigos.jpg',
-    fundacao: '2011',
-    campo: 'http://andrecruz.com.br/paradisolocalizacao.html',
-    horario: 'Quintas, 19h00 às 20h00.',
-    partidas: '5',
-    jogadores: '20',
-    urlvideos: 'https://www.youtube.com/watch?v=_wrGhc2CAYQ&list=PLXOWQP5Jx-Mh1dLQ5ksrPUFdP04YsNLTL'
+  },{
+    id: 2,
+    nome: 'Poka Yoke',
+    foto: 'img/pokayoke.jpg',
+    fundacao: 'Julho de 1998',
+    campo: 'Clube Jardim Aurélia',
+    site: 'http://clubeaurelia.com.br/',
+    horario: 'Sextas, 17h30 às 19h00.',
+    partidas: '0',
+    jogadores: '22',
+    urlvideos: ''
  }];
 
   return {
